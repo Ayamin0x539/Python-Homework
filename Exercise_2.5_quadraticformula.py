@@ -1,4 +1,8 @@
 #Quadratic formula
+'''
+Write a function roots that computes the roots of a quadratic equation. Check for complex roots and print an 
+error message saying that the roots are complex. 
+'''
 #in the form of ax^2 + bx + c = 0
 
 def findRoots(a, b, c):

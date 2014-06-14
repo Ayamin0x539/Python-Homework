@@ -1,4 +1,10 @@
-#Defining a function: Rock paper scissors
+﻿#Defining a function: Rock paper scissors
+'''
+Recall how we deﬁne a function using def, and how we pass in parameters. In homework 2.py (download this 
+from the website if you haven’t yet), transform your code from exercise 1.7 (the rock, paper, scissors game) into a 
+function that takes parameters, instead of asking the user for input. Make sure to return your answer, rather than 
+printing it. 
+'''
 
 def rps(p1, p2):
     p1win = "Player 1 wins."

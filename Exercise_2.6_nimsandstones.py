@@ -1,9 +1,10 @@
 #The game of Nims/Stones
-
-#In this game, two players sit in front of a pile of 100 stones.
-#They take turns, each removing between 1 and 5 stones
-#(assuming there are at least 5 stones left in the pile).
-#The person who removes the last stone(s) wins.
+'''
+In this game, two players sit in front of a pile of 100 stones.
+They take turns, each removing between 1 and 5 stones
+(assuming there are at least 5 stones left in the pile).
+The person who removes the last stone(s) wins.
+'''
 
 def isNumber(string):
     try:

@@ -1,3 +1,15 @@
+'''
+Write a method is divisible that takes two integers, m and n. The method returns True if m is divisible by 
+n, and returns False otherwise. Test cases for this function are included for you; look at the conditions that 
+they test and try to make sure your future test cases are comprehensive. 
+2 
+2. Imagine that Python doesn’t have	the != operator built in. Write a method not equal that takes two
+parameters and gives the same result as the != operator. Obviously, you cannot use != within your function! 
+Test if your code works by thinking of examples and making sure the output is the same for your new method 
+as != gives you. 
+'''
+
+
 #is_divisible
 
 def is_divisible(m, n):
