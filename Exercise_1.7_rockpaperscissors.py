@@ -14,7 +14,7 @@ while 1:
     p1 = raw_input("Player 1 chooses... ")
     p2 = raw_input("Player 2 chooses... ")
 
-    if (p1 == p2):
+    if (p1 == p2 and (p1 == "rock" or p1 == "paper" or p1 == "scissors")):
         print "Tie."
     elif (p1 == "rock"):
         if (p2 == "scissors"):
