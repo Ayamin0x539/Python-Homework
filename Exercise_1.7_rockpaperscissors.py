@@ -21,16 +21,22 @@ while 1:
             print p1win
         elif (p2 == "paper"):
             print p2win
+        else:
+            print "Invalid input."
     elif (p1 == "scissors"):
         if (p2 == "paper"):
             print p1win
         elif (p2 == "rock"):
             print p2win
+        else:
+            print "Invalid input."
     elif (p1 == "paper"):
         if (p2 == "rock"):
             print p1win
         elif (p2 == "scissors"):
             print p2win
+        else:
+            print "Invalid input."
     else:
         print "Invalid input."
     print
