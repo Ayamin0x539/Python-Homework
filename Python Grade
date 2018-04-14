@@ -1,0 +1,31 @@
+How can one design a program for grades in this formart?
+
+Create a new python file named College
+
+
+Define a main function
+In the main function have a loop that allows the user to register graduates
+Get the first name last name and final grade from the user
+The final grade must be an int or float
+
+Define a function named calculGradeLetter that has one parameter for the grade
+In the calculGradeLetter function decide what the grade letter is depending on the grade that was passed to the function
+If grade is greater than 89 grade letter = A
+If grade is less than 89 but greater than 79 grade letter = B
+If grade is less than 79 but greater than 69 grade letter = C
+If grade is less than 69 but greater than 59 grade letter = D
+If grade is less than 59 grade letter = F
+Return the grade letter
+
+Define a function named regGraduate that has 4 parameters for the first name, last name, grade and grade letter
+In the regGraduate function write the value of the parameters into a file named GraduateReg.txt
+Make sure you do not lose the data that is already in the file
+All the graduates registration information should be on one line separated by spaces
+There can only be one graduate record per line
+
+Define a function named showGraduate that has no parameters
+In the showStudents function print all of the information in the Student.txt file
+In the main function call the regGraduate function with the four correct arguments to save the student info in the GraduateReg.txt file
+
+In the main function call the showGraduate function
+The program should allow the teacher to register as many graduates as possible.
