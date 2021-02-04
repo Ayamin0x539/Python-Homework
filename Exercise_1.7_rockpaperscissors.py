@@ -1,8 +1,7 @@
 #Exercise 1.7 - Rock, Paper, Scissors
 '''
 In this exercise, you are going to practice using conditionals (if, elif, else). You will write a small program that will
-determine the result of a rock, paper, scissors game, given Player 1 and Player 2’s choices. Your program will print 
-out the result.
+determine the result of a rock, paper, scissors game, given Player 1 and Player 2’s choices. Your program will print out the result.
 '''
 
 #constants to print
